@@ -49,10 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Demo contact form.
-  document.getElementById("contactForm").addEventListener("submit", (event) => {
-    event.preventDefault();
-    alert("Thank you! Please connect this form to your email service or backend.");
-    event.target.reset();
-  });
+  // // Demo contact form.
+  // document.getElementById("contactForm").addEventListener("submit", (event) => {
+  //   event.preventDefault();
+  //   alert("Thank you! Please connect this form to your email service or backend.");
+  //   event.target.reset();
+  // });
 });
