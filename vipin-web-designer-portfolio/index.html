@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vipin Kumar - Web Designer Portfolio">
+  <title>Vipin Kumar | Web Designer</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">V<span>K</span>.</a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+              aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-2"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="btn btn-primary rounded-pill px-4" href="#contact">Let's Talk</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero-section" id="home">
+    <div class="hero-grid"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center min-vh-100 py-5">
+        <div class="col-lg-7">
+          <div class="hero-content">
+            <p class="eyebrow mb-3"><span></span> WEB DESIGNER</p>
+            <h1>Designing websites that look <em>great</em> and work better.</h1>
+            <p class="hero-text">
+              I'm <strong>Vipin Kumar</strong>, a Web Designer focused on clean,
+              responsive and modern websites using HTML5, CSS3, Bootstrap,
+              Tailwind CSS and design-to-code workflows.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#projects" class="btn btn-primary btn-lg rounded-pill px-4">
+                View My Work <i class="bi bi-arrow-up-right ms-1"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">
+                Contact Me
+              </a>
+            </div>
+
+            <div class="hero-meta mt-5">
+              <div><strong>5+</strong><span>Years Experience</span></div>
+              <div><strong>20+</strong><span>Web Projects</span></div>
+              <div><strong>100%</strong><span>Responsive Design</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="hero-visual">
+            <div class="code-card">
+              <div class="window-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="code-lines">
+                <p><b>&lt;section</b> <i>class</i>=<strong>"hero"</strong><b>&gt;</b></p>
+                <p class="indent"><b>&lt;h1&gt;</b>Creative Web Design<b>&lt;/h1&gt;</b></p>
+                <p class="indent"><b>&lt;p&gt;</b>Clean. Modern. Responsive.<b>&lt;/p&gt;</b></p>
+                <p><b>&lt;/section&gt;</b></p>
+                <br>
+                <p><span>.website</span> {</p>
+                <p class="indent">display: <strong>flex</strong>;</p>
+                <p class="indent">responsive: <strong>true</strong>;</p>
+                <p>}</p>
+              </div>
+            </div>
+
+            <div class="floating-card card-one">
+              <i class="bi bi-phone"></i>
+              <span>Responsive</span>
+            </div>
+            <div class="floating-card card-two">
+              <i class="bi bi-palette"></i>
+              <span>Creative UI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down"><i class="bi bi-arrow-down"></i></a>
+  </header>
+
+  <!-- About -->
+  <section class="section-padding" id="about">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5">
+          <div class="about-box">
+            <span class="about-number">01</span>
+            <div class="about-circle"><i class="bi bi-code-slash"></i></div>
+            <h3>Design + Code</h3>
+            <p>Turning ideas and visual designs into polished, responsive websites.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <p class="section-label">ABOUT ME</p>
+          <h2 class="section-title">A web designer who cares about <span>details.</span></h2>
+          <p class="lead-text">
+            I create modern websites with a strong focus on layout, typography,
+            spacing, responsiveness and clean front-end implementation.
+          </p>
+          <p class="body-text">
+            My workflow includes converting Figma, PSD and image designs into
+            HTML, building responsive layouts, improving existing websites and
+            creating custom designs that work across desktop, tablet and mobile.
+          </p>
+
+          <div class="row g-3 mt-3">
+            <div class="col-sm-6">
+              <div class="info-item"><i class="bi bi-check2-circle"></i> Pixel-focused layouts</div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info-item"><i class="bi bi-check2-circle"></i> Mobile-first approach</div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info-item"><i class="bi bi-check2-circle"></i> Clean HTML & CSS</div>
+            </div>
+            <div class="col-sm-6">
+              <div class="info-item"><i class="bi bi-check2-circle"></i> Cross-browser layouts</div>
+            </div>
+          </div>
+
+          <a href="#contact" class="text-link mt-4 d-inline-flex">Let's work together <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section-padding dark-section" id="services">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-8">
+          <p class="section-label">WHAT I DO</p>
+          <h2 class="section-title">Services built around <span>good design.</span></h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <span>01</span>
+            <i class="bi bi-window"></i>
+            <h3>Web Design</h3>
+            <p>Modern, clean and responsive website layouts for businesses and brands.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <span>02</span>
+            <i class="bi bi-bezier2"></i>
+            <h3>Figma to HTML</h3>
+            <p>Accurate conversion of Figma designs into responsive front-end code.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <span>03</span>
+            <i class="bi bi-file-earmark-code"></i>
+            <h3>PSD / Image to HTML</h3>
+            <p>Transforming static visual designs into structured, responsive pages.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card">
+            <span>04</span>
+            <i class="bi bi-phone"></i>
+            <h3>Responsive Design</h3>
+            <p>Layouts optimized for desktop, tablet and mobile screen sizes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section-padding" id="skills">
+    <div class="container">
+      <div class="row align-items-end mb-5">
+        <div class="col-lg-8">
+          <p class="section-label">MY TOOLKIT</p>
+          <h2 class="section-title">Skills I use to bring <span>ideas to life.</span></h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="skill-row">
+            <div class="skill-head"><span>HTML5</span><strong>95%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:95%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>CSS3</span><strong>95%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:95%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Bootstrap 5</span><strong>90%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Tailwind CSS</span><strong>85%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="skill-row">
+            <div class="skill-head"><span>Figma to HTML</span><strong>90%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>PSD / Image to HTML</span><strong>90%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>WordPress</span><strong>75%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:75%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-head"><span>Graphic Design</span><strong>70%</strong></div>
+            <div class="progress"><div class="progress-bar" style="width:70%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section-padding project-section" id="projects">
+    <div class="container">
+      <div class="row mb-5 align-items-end">
+        <div class="col-lg-8">
+          <p class="section-label">SELECTED WORK</p>
+          <h2 class="section-title">A few projects I've <span>worked on.</span></h2>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <article class="project-card">
+            <div class="project-preview preview-one">
+              <div class="mini-browser">
+                <div class="mini-content">
+                  <img src="assets/images/exovance.png">
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <span>01 / Exovance</span>
+                <h3>Business Website</h3>
+              </div>
+              <a href="https://exovance.net/"  target="_blank">
+              <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="project-card">
+            <div class="project-preview preview-two">
+              <div class="mini-browser">
+                <div class="mini-content">
+                  <img src="assets/images/Ouranikhomes.png">
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <span>02 / Our Anik Homes</span>
+                <h3>Business Website</h3>
+              </div>
+              <a href="https://ouranikhomes.com.au/"  target="_blank">
+              <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="project-card">
+            <div class="project-preview preview-three">
+              <div class="mini-browser">
+                <div class="mini-content">
+                  <img src="assets/images/Solidcore.png">
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <span>03 / Solidcore</span>
+                <h3>Business Website</h3>
+              </div>
+              <a href="https://www.solidcorecabinets.com/"  target="_blank">
+              <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="project-card">
+            <div class="project-preview preview-four">
+              <div class="mini-browser">
+                <div class="mini-content">
+                  <img src="assets/images/RRcabinet.png">
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <span>04 / RR Cabinet</span>
+                <h3>E-commerce Website</h3>
+              </div>
+              <a href="https://rrcabinetsinc.com/" target="_blank">
+              <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section-padding dark-section" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="section-label">EXPERIENCE</p>
+          <h2 class="section-title">My professional <span>journey.</span></h2>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-date">CURRENT</span>
+              <h3>Web Designer</h3>
+              <h4>Analytic IT Services</h4>
+              <p>Creating responsive websites, custom layouts, design-to-code implementations and improving existing web experiences.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-date">1 YEAR</span>
+              <h3>Web Designer</h3>
+              <h4>Cyber Puzzle Net</h4>
+              <p>Worked on website design, responsive layouts, visual improvements and front-end implementation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <div>
+          <p class="section-label">HAVE A PROJECT?</p>
+          <h2>Let's create something <span>great.</span></h2>
+        </div>
+        <a href="#contact" class="btn btn-light rounded-pill px-4 py-3">Start a Conversation <i class="bi bi-arrow-up-right ms-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section-padding" id="contact">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <p class="section-label">GET IN TOUCH</p>
+          <h2 class="section-title">Let's talk about your <span>next website.</span></h2>
+          <p class="body-text mt-4">Have a website idea, redesign project or Figma/PSD design that needs to be converted into HTML? Send me a message.</p>
+
+          <div class="contact-details mt-4">
+            <a href="mailto:kvipin400@gmail.com"><i class="bi bi-envelope"></i> kvipin400@gmail.com</a>
+            <a href="tel:+91 9882801090"><i class="bi bi-telephone"></i> +91 9882801090</a>
+            <span><i class="bi bi-geo-alt"></i> Mohali, Punjab</span>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="contact-form" id="contactForm">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+              </div>
+              <div class="col-md-6">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+              </div>
+              <div class="col-12">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" placeholder="Website project">
+              </div>
+              <div class="col-12">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" rows="6" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary rounded-pill px-4 py-3">
+                  Send Message <i class="bi bi-arrow-up-right ms-1"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <a href="#home" class="footer-logo">V<span>K</span>.</a>
+        <p class="mb-0">© <span id="year"></span> Vipin Kumar. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="www.linkedin.com/in/vipin-kumar-4714a1256" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+         
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
